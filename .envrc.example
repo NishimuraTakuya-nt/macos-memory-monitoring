@@ -1,0 +1,13 @@
+# InfluxDB settings
+export INFLUXDB_USERNAME=admin
+export INFLUXDB_PASSWORD=your_secure_password
+export INFLUXDB_ORG=myorg
+export INFLUXDB_BUCKET=your_basket_name
+export INFLUXDB_ADMIN_TOKEN=your_super_secret_auth_token
+
+# Grafana settings
+export GRAFANA_USERNAME=admin
+export GRAFANA_PASSWORD=your_secure_password
+
+# Note: Replace the placeholder values with your actual secure values
+# Do not commit the actual .envrc file to version control
